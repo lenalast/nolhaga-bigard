@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nolhaga Bigård</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Satisfy');
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="nav-brand-wrap"><a class="nav-brand" href="index.html">Nolhaga Bigård</a></div>
+        <a class="link" href="index.html">Produkter</a>
+        <a class="link" href="blog.html">Bisafari</a>
+        <a class="link" href="about.html">Om oss</a>
+        <a class="link" href="contact.html">Kontakt</a>
+    </nav>
+</header>
+
+<main>
+    <div class="hero-kontact">
+        <div class="color-overlay-kontact">
+            <div class="hero-kontact-content-container">
+                <h1>Kontakta oss</h1>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact">
+        <div class="container-contact-text">
+            <div class="contact-text">
+                <h1>Vill du komma i kontakt med oss?</h1>
+                <hr>
+
+                <p>Fyll i kontaktformuläret nedan så
+                    återkommer vi till dig så snart vi kan.
+                </p>
+            </div>
+
+            <form id="contact-form" onsubmit="submitForm(event)">
+                <input name="firstname" id="firstname" type="text" placeholder="Förnamn">
+                <input name="lastname" id="lastname" type="text" placeholder="Efternamn">
+                <input name="email" id="email" type="text" placeholder="Email">
+                <textarea name="message" id="message" cols="50" rows="10" placeholder="Meddelande"></textarea>
+                <div class="buttons">
+                    <button class="button secondary" type="reset">Rensa</button>
+                    <button class="button cta" type="submit">Skicka</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer">
+        <p>Susanne Forsman <br> Nolhaga 1, 442 90 Kungälv</p>
+        <p>Tel: 0707-070809 <br>Mail: susanne@nolhaga.com</p>
+        <div class="social-media">
+            <img class="fblogo" alt="facebook logo"
+                 src="http://centrummindfulness.nl/wp-content/uploads/2012/09/facebook_logo_small1.png">
+            <a href="https://www.instagram.com/nolhagabigard/">
+                <img class="instalogo" alt="instagram logo"
+                     src="http://3835642c2693476aa717-d4b78efce91b9730bcca725cf9bb0b37.r51.cf1.rackcdn.com/Instagram_App_Large_May2016_200.png"></a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
