@@ -11,6 +11,7 @@ button:focus {
 }
 
 .navbar {
+    position: fixed;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -372,6 +373,7 @@ hr {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: start;
     width: 100%;
     min-height: 60vh;
     padding: 50px;
@@ -389,30 +391,21 @@ hr {
 .contact-text h1 {
     margin-bottom: 20px;
     font-size: 38px;
-    color: #e2e2e2;
 }
 
 .contact-text, p {
     font-size: 18px;
-    color: white;
 }
 
 .contact-list-container {
-    margin-top: 16px;
-    align-items: start;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    width: 54%;
 }
 
 .contact-list {
     padding-bottom: 8px;
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    color: #e2e2e2;
-}
-
-.fblogo-list {
-    position: absolute;
-    right: 730px;
-    width: 30px;
-    height: 30px;
-    /*border-radius: 80%;*/
 }
