@@ -33,14 +33,6 @@ button:focus {
     color: whitesmoke;
 }
 
-#insta-link {
-    color: #484848;
-}
-
-#insta-link:hover {
-    color: #ec74d8;
-}
-
 .nav-brand-wrap {
     position: absolute;
     top: 20%;
@@ -80,6 +72,11 @@ button:focus {
 .hero-content-container .buttons {
     display: flex;
     justify-content: center;
+}
+
+.fa.fa-angle-double-down {
+    color: white;
+    font-size: 4em;
 }
 
 a:link, a:visited {
@@ -134,10 +131,6 @@ a:link, a:visited {
     width: 100%;
     height: 100%;
     background-color: rgba(91, 57, 132, 0.71);
-}
-
-.hero-about-content-container {
-/ / background-color: #31b0d5;
 }
 
 .hero-about-content-container h1 {
@@ -224,7 +217,6 @@ a:link, a:visited {
     color: #484848;
 }
 
-
 .blog-text p {
     font-size: 18px;
     padding-bottom: 10px;
@@ -240,7 +232,7 @@ a:link, a:visited {
     justify-content: center;
     width: 100%;
     min-height: 60vh;
-    padding: 86px 50px;
+    padding: 50px 50px;
     box-sizing: border-box;
     color: white;
     background: #5b3984;
@@ -255,6 +247,7 @@ hr {
 }
 
 .intro-text h1 {
+    margin-bottom: 20px;
     font-size: 38px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -401,10 +394,9 @@ footer {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    text-align: start;
     width: 100%;
     min-height: 60vh;
-    padding: 50px;
+    padding: 50px 50px 120px 50px;
     box-sizing: border-box;
     color: white;
     background: #5b3984;
@@ -412,7 +404,6 @@ footer {
 
 .contact-text {
     width: 50%;
-    text-align: start;
     font-family: 'Open Sans', sans-serif;
 }
 
