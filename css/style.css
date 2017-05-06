@@ -35,8 +35,8 @@ button:focus {
 
 .nav-brand-wrap {
     position: absolute;
-    top: 20%;
     left: 2%;
+    top: 20%;
 }
 
 .logo {
@@ -159,7 +159,7 @@ a:link, a:visited {
 }
 
 .hero-blog {
-    background: url(../assets/images/bikupa.jpg) no-repeat center center fixed;
+    background: url(../assets/images/bee-white.jpg) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -202,14 +202,14 @@ a:link, a:visited {
     padding: 40px;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    color: #484848;
+    color: #5b3984;
     background-color: white;
 }
 
 .blog-text h1 {
     font-size: 32px;
     padding-bottom: 10px;
-    color: #484848;
+    color: #5b3984;
 }
 
 .blog-text p {
@@ -218,12 +218,37 @@ a:link, a:visited {
     color: #484848;
 }
 
+.hero-leasing {
+    background: url(../assets/images/honey.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.color-overlay-leasing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(91, 57, 132, 0.71);
+}
+
+.hero-leasing-content-container h1 {
+    color: white;
+    font-family: "Satisfy", cursive;
+    font-size: 5em;
+    animation: fadeIn 800ms ease-out;
+}
+
 .container-intro-text {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     min-height: 60vh;
-    padding: 50px 50px;
+    padding: 20px 20px 40px 20px;
     box-sizing: border-box;
     color: white;
     background: #5b3984;
@@ -245,21 +270,23 @@ hr {
 }
 
 .intro-text p {
-    color: white;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
+    color: white;
 }
 
 .container-about-text {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     min-height: 60vh;
-    padding: 50px;
+    padding: 20px 20px 40px 20px;
     box-sizing: border-box;
-    color: white;
-    background: #5b3984;
+    color: #5b3984;
+    background: white;
 }
 
 .about-text {
@@ -268,13 +295,11 @@ hr {
 }
 
 .about-text h1 {
-    color: white;
     margin-bottom: 20px;
     font-size: 38px;
 }
 
 .about-text p {
-    color: white;
     margin-bottom: 20px;
     font-size: 18px;
     font-weight: lighter;
@@ -352,10 +377,14 @@ footer {
     padding: 20px;
 }
 
-.footer-info p {
+.footer-info {
     display: inline-flex;
-    position: relative;
-    left: 37%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-info p {
     padding-right: 12px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -363,16 +392,18 @@ footer {
 }
 
 .social-media {
-    text-align: center;
-    padding: 6px 0 0 0;
+    display: flex;
+    justify-content: center;
+    padding: 4px 0 0 0;
 }
 
 .fa.fa-facebook {
-    padding-right: 12px;
     font-size: 2em;
 }
 
 .fa.fa-instagram {
+    padding-left: 12px;
+    margin-right: 12px;
     font-size: 2em;
 }
 
@@ -387,11 +418,11 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    min-height: 60vh;
-    padding: 50px 50px 120px 50px;
+    max-height: 60vh;
+    padding: 20px 20px 40px 20px;
     box-sizing: border-box;
-    color: white;
-    background: #5b3984;
+    color: #5b3984;
+    background: white;
 }
 
 .contact-text {
@@ -421,4 +452,28 @@ footer {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
+}
+
+@media screen and (max-width: 1200px) {
+    .link {
+        right: -26%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .link {
+        right: -22%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .link {
+        right: -16%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .link {
+        right: -8%;
+    }
 }
