@@ -338,18 +338,16 @@ h2.section-title {
     justify-content: center;
     align-items: baseline;
     width: 100%;
-    border-radius: 4px;
     padding: 40px;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     color: #484848;
-    background-color: white;
 }
 
 .honey {
-    width: 20%;
-    padding: 40px;
-    margin: 12px;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
 }
 
 .flavored-container, .honey {
@@ -360,17 +358,22 @@ h2.section-title {
 .honey-images {
     width: 200px;
     height: 200px;
-    padding: 2px;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 300px;
 }
 
 .honey-images-big {
     width: 200px;
     height: 220px;
-    padding: 2px;
 }
 
 .product-text {
-    margin-left: 16px;
+    margin: 0;
+    padding: 0;
     text-align: left;
     line-height: 1.5;
     font-weight: 300;
@@ -463,6 +466,15 @@ footer {
     .link {
         right: -26%;
     }
+    .honey-images {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .product-text {
+        margin-left: 20px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -472,14 +484,14 @@ footer {
     .container-images {
         display: flex;
         flex-wrap: wrap;
-        width: 80%;
+        width: 100%;
         min-height: 60vh;
         padding: 20px;
         box-sizing: border-box;
     }
     .honey-images-big {
-        width: 160px;
-        height: 180px;
+        width: 200px;
+        height: 200px;
         padding: 2px;
     }
 }
@@ -488,7 +500,9 @@ footer {
     .link {
         right: -16%;
     }
-
+    .product-text {
+        margin-left: 28px;
+    }
 }
 
 @media screen and (max-width: 700px) {
